@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/userDetails matches snapshot 1`] = `
+<div
+  className="UserDetails"
+>
+  <img
+    alt="test login avatar"
+    className="UserDetails__avatar"
+    src="test avatar"
+  />
+  <div
+    className="UserDetails__info"
+  >
+    <a
+      className="UserDetails__link"
+      href="test url"
+      target="_blank"
+    >
+      Checkout on GitHub
+    </a>
+    <div
+      className="UserDetails__attr"
+    >
+      Login: 
+      test login
+    </div>
+    <div
+      className="UserDetails__attr"
+    >
+      Number of followers: 
+      345
+    </div>
+    <div
+      className="UserDetails__attr"
+    >
+      Number of public repos: 
+      12
+    </div>
+    <div
+      className="UserDetails__attr"
+    >
+      On GitHub since: 
+      Invalid Date
+    </div>
+  </div>
+</div>
+`;

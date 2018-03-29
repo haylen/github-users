@@ -1,0 +1,26 @@
+.UserPanel {
+  position: relative;
+  padding: 15px 20px;
+  margin: 0 20px 40px 20px;
+  box-shadow: 4px 5px 16px 0px #2b2b2b;
+  border-color: transparent;
+  background-color: #3d3d3d;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.05, 1.05);
+    box-shadow: 4px 5px 30px 8px #2b2b2b;
+  }
+
+  .UserPanel__avatar {
+    width: 130px;
+    height: auto;
+    border-radius: 50%;
+  }
+
+  .UserPanel__login {
+    margin-top: 7px;
+    text-align: center;
+    color: #dfdfdf;
+  }
+}

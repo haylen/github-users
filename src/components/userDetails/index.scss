@@ -1,0 +1,44 @@
+.UserDetails {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  @media screen and (min-device-width: 481px) {
+    width: 550px;
+    margin: auto;
+    box-shadow: 4px 5px 16px 0px #2b2b2b;
+  }
+
+  .UserDetails__avatar {
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+
+    @media screen and (max-device-width: 480px) {
+      box-shadow: 4px 5px 16px 0px #2b2b2b;
+      margin-bottom: 30px;
+    }
+  }
+
+  .UserDetails__info {
+    width: 350px;
+    background-color: #2b2b2b;
+    color: #dfdfdf;
+    padding: 30px;
+    box-sizing: border-box;
+
+    @media screen and (max-device-width: 480px) {
+      box-shadow: 4px 5px 16px 0px #2b2b2b;
+    }
+  }
+
+  .UserDetails__link {
+    display: block;
+    margin-bottom: 15px;
+    color: #dfdfdf;
+  }
+
+  .UserDetails__attr {
+    margin-bottom: 5px;
+  }
+}
